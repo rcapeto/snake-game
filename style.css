@@ -1,0 +1,38 @@
+body{
+   display: flex;
+   width: 100%;
+   max-width: 1500px;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   background-color: #cecece;
+}
+
+body h1{
+   font-size: 30px;
+   font-weight: bold;
+   text-transform: uppercase;
+   font: arial;
+}
+
+body button{
+   outline: 0;
+   border: 1px solid black;
+   padding: 6px 12px;
+   background-color: white;
+   color: black;
+   margin-top: 20px;
+   transition: 1s;
+   cursor: pointer;
+}
+
+body button:hover{
+   transition: 1s;
+   background-color: black;
+   color: white;
+   padding: 8px 16px;
+}
+
+canvas {
+   border: 2px solid black;
+}
